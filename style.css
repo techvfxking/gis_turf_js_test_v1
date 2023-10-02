@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Poppins:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+  }
+
+  body{
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #7180B9;
+}
+
+#mapSection{
+    width: 95vw;
+    height: 90vh;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px 0 #DFF3E4, 0 6px 20px 0 #DFF3E4;
+}
